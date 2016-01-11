@@ -1,0 +1,17 @@
+== Diary app using Ruby on Rails Web Framework
+
+====Instructions on implementing this project on your local machine
+* Clone the repo : 
+  "git clone <url>"(where url is the HTTPS clone URL)
+* Navigate to the project directory(created by “git clone”) : 
+  cd diary-app
+* Install dependencies(set up the gems) : 
+  "bundle install"
+* Check & Modify DB credentials : 
+  config/database.yml
+* Create the database : 
+  "rake db:create"
+* Run the migrations : 
+  "rake db:migrate"
+* Run the server : 
+  "rails s"
